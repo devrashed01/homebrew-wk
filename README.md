@@ -3,8 +3,12 @@
 [wk](https://devrashed01.github.io/wk/) is a macOS menu-bar app and CLI for git worktrees and Claude Code sessions.
 
 ```sh
-brew install --cask devrashed01/wk/wk
+brew tap devrashed01/wk
+brew trust devrashed01/wk
+brew install --cask wk
 ```
+
+Recent Homebrew versions only install from a third-party tap after you trust it, which is what the second line does.
 
 This installs `Wk.app` and puts the `wk` command on your PATH. To update later:
 
