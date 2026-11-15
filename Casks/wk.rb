@@ -1,6 +1,6 @@
 cask "wk" do
-  version "0.6.0"
-  sha256 "225a6573f4f686dae4e761a109788bc240eafcdfab2f8e9bf041929f16f884a0"
+  version "0.6.1"
+  sha256 "3c39913191df1c009acc506f572fdfcc9144340bedbed2c370c1f2f59e8be618"
 
   url "https://github.com/devrashed01/wk/releases/download/v#{version}/Wk-#{version}-macos.zip"
   name "Wk"
